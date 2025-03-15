@@ -15,6 +15,7 @@ Start from here:
 - [Get Channel grouping](#get-channel-grouping) 
 
 
+
 ## Get client id and session id value 
 Send a request to the Server-side GTM Client Tag, which reads the cookies and returns the values of client_id, session_id, and page_id.
 
