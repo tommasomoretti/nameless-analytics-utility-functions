@@ -12,6 +12,7 @@ Send a request to the Server-side GTM Client Tag, which reads the cookies and re
 <img width="1512" alt="Screenshot 2024-11-03 alle 13 08 16" src="https://github.com/user-attachments/assets/51169268-dbc7-4a64-b09a-74b3b778155f">
 
 Usage:
+
 ```javascript
 const full_endpoint_domain = 'https://gtm.namelessanalytics.com/tm/nameless'
 const payload = {
