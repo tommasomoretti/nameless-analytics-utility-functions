@@ -7,6 +7,12 @@ The Nameless Analytics Utility functions is a set of functions used by Nameless 
 
 For an overview of how Nameless Analytics works [start from here](https://github.com/tommasomoretti/nameless-analytics).
 
+Start from here:
+- [Get client id and session id value](#get-client-id-and-session-id-value)
+- [Get the current Consent Mode values](#get-the-current-consent-mode-values)
+- [Get user agent details](#get-user-agent-details)
+- [Format timestamp](#forma-timestamp)
+- [Get Channel grouping](#get-channel-grouping) 
 
 
 ## Get client id and session id value 
@@ -60,7 +66,7 @@ format_datetime(timestamp)
 ```
 
 
-## Get Channel Grouping 
+## Get Channel grouping 
 Giving a source and a campaign name, calculate the standard channel grouping of those values.
 
 <img width="1512" alt="Screenshot 2024-11-03 alle 13 49 09" src="https://github.com/user-attachments/assets/cf6692ac-fd11-44bb-9cbf-22960a9b89e2">
