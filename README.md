@@ -3,7 +3,10 @@
 ---
 
 # Utility functions
-Nameless Analytics has a set of utilities that can be called via JavaScript.
+The Nameless Analytics Utility functions is a set of functions used by Nameless Analytics Client-side tracker tag.
+
+For an overview of how Nameless Analytics works [start from here](https://github.com/tommasomoretti/nameless-analytics).
+
 
 
 ## Get client id and session id value 
