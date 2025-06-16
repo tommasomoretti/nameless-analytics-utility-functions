@@ -6,9 +6,9 @@
 ---
 
 # Utility functions
-The Nameless Analytics Utility Functions is a set of functions used by [Nameless Analytics Client-side tracker tag](https://github.com/tommasomoretti/nameless-analytics-client-side-tracker-tag).
+The Nameless Analytics Utility Functions is a set of functions used by [Nameless Analytics Client-side tracker tag](https://github.com/tommasomoretti/nameless-analytics-client-side-tracker-tag/).
 
-For an overview of how Nameless Analytics works [start from here](https://github.com/tommasomoretti/nameless-analytics).
+For an overview of how Nameless Analytics works [start from here](https://github.com/tommasomoretti/nameless-analytics/).
 
 Start from here:
 - [Get client id and session id value](#get-client-id-and-session-id-value)
