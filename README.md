@@ -14,7 +14,7 @@ Start from here:
 - [Get client id and session id value](#get-client-id-and-session-id-value)
 - [Get the current Consent Mode values](#get-the-current-consent-mode-values)
 - [Get user agent details](#get-user-agent-details)
-- [Format timestamp](#forma-timestamp)
+- [Format timestamp](#format-timestamp)
 - [Get Channel grouping](#get-channel-grouping) 
 
 
