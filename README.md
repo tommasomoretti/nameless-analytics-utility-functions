@@ -6,7 +6,9 @@
 ---
 
 # Utility functions
-The Nameless Analytics Utility Functions is a set of functions used by [Nameless Analytics Client-side tracker tag](https://github.com/tommasomoretti/nameless-analytics-client-side-tracker-tag/).
+The Nameless Analytics Utility Functions is a set of functions used by [Nameless Analytics Client-side tracker tag](https://github.com/tommasomoretti/nameless-analytics-client-side-tracker-tag/). 
+
+They can be used for getting the client and session id, get user agent details, format fimestamp, get channel grouping or get last consent status 
 
 For an overview of how Nameless Analytics works [start from here](https://github.com/tommasomoretti/nameless-analytics/).
 
@@ -15,7 +17,8 @@ Table of contents:
 - [Get the current Consent Mode values](#get-the-current-consent-mode-values)
 - [Get user agent details](#get-user-agent-details)
 - [Format timestamp](#format-timestamp)
-- [Get Channel grouping](#get-channel-grouping) 
+- [Get Channel grouping](#get-channel-grouping)
+- [Get last consent values](#get-last-consent-values)
 
 
 
@@ -34,6 +37,7 @@ await get_user_data(full_endpoint_domain, payload)
 ```
 
 
+
 ## Get the current Consent Mode values
 Get the last consent type and values pushed into the dataLayer.
 
@@ -43,6 +47,7 @@ get_last_consent_values()
 ```
 
 
+
 ## Get user agent details
 Parse user agent details using [UA Parser js library](https://www.jsdelivr.com/package/npm/ua-parser-js).
 
@@ -50,6 +55,7 @@ Usage:
 ```javascript
 parse_user_agent()
 ```
+
 
 
 ## Format timestamp
@@ -62,6 +68,7 @@ format_datetime(timestamp)
 ```
 
 
+
 ## Get Channel grouping 
 Giving a source and a campaign name, calculate the standard channel grouping of those values.
 
@@ -70,6 +77,14 @@ Usage:
 const source = 'facebook'
 const campaign_name = 'test'
 get_channel_grouping(source, campaign_name)
+```
+
+
+
+## Get last_consent_values
+
+```javascript
+get_last_consent_values()
 ```
 
 ---
