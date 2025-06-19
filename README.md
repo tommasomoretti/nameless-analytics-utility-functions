@@ -35,7 +35,7 @@ const payload = {
 await get_user_data(full_endpoint_domain, payload)
 ```
 
-Expected output
+Expected output:
 ```json
 {
   "event_name": "get_user_data",
@@ -55,7 +55,7 @@ Usage:
 get_last_consent_values()
 ```
 
-Expected output
+Expected output:
 ```json
 {
   "consent_type": "update",
@@ -79,7 +79,7 @@ Usage:
 parse_user_agent()
 ```
 
-Expected output
+Expected output:
 ```json
 {
   "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
