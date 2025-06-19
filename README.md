@@ -10,7 +10,7 @@ The Nameless Analytics Utility Functions is a set of functions used by [Nameless
 
 For an overview of how Nameless Analytics works [start from here](https://github.com/tommasomoretti/nameless-analytics/).
 
-Start from here:
+Table of contents:
 - [Get client id and session id value](#get-client-id-and-session-id-value)
 - [Get the current Consent Mode values](#get-the-current-consent-mode-values)
 - [Get user agent details](#get-user-agent-details)
