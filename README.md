@@ -14,7 +14,7 @@ For an overview of how Nameless Analytics works [start from here](https://github
 
 Table of contents:
 - [Get client id and session id value](#get-client-id-and-session-id-value)
-- [Get the current Consent Mode values](#get-the-current-consent-mode-values)
+- [Get the current Google Consent Mode values](#get-the-current-google-consent-mode-values)
 - [Get user agent details](#get-user-agent-details)
 - [Format timestamp](#format-timestamp)
 - [Get channel grouping](#get-channel-grouping)
@@ -47,7 +47,7 @@ Expected output:
 
 
 
-## Get the current Consent Mode values
+## Get the current Google Consent Mode values
 Get the last consent type and values pushed into the dataLayer.
 
 Usage:
