@@ -18,7 +18,6 @@ Table of contents:
 - [Get user agent details](#get-user-agent-details)
 - [Format timestamp](#format-timestamp)
 - [Get Channel grouping](#get-channel-grouping)
-- [Get last consent values](#get-last-consent-values)
 
 
 
@@ -36,6 +35,16 @@ const payload = {
 await get_user_data(full_endpoint_domain, payload)
 ```
 
+Expected output
+```json
+{
+  "event_name": "get_user_data",
+  "client_id": "iURYgLE478F7TZU",
+   "session_id": "iURYgLE478F7TZU_yt726CejxG8pyDW",
+   "page_id": "X9zgxcyvbNwM0qt"
+}
+```
+
 
 
 ## Get the current Consent Mode values
@@ -44,6 +53,20 @@ Get the last consent type and values pushed into the dataLayer.
 Usage:
 ```javascript
 get_last_consent_values()
+```
+
+Expected output
+```json
+{
+  "consent_type": "update",
+  "ad_user_data": false,
+  "ad_personalization": false,
+  "ad_storage": false,
+  "analytics_storage": true,
+  "functionality_storage": false,
+  "personalization_storage": false,
+  "security_storage": false
+}
 ```
 
 
@@ -56,6 +79,35 @@ Usage:
 parse_user_agent()
 ```
 
+Expected output
+```json
+{
+  "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+  "browser": {
+    "name": "Chrome",
+    "version": "137.0.0.0",
+    "major": "137",
+    "language": "it-IT"
+  },
+  "engine": {
+    "name": "Blink",
+    "version": "137.0.0.0"
+  },
+  "os": {
+    "name": "Mac OS",
+    "version": "10.15.7"
+  },
+  "device": {
+    "vendor": "Apple",
+    "type": null,
+    "model": "Macintosh"
+  },
+  "cpu": {
+    "architecture": null
+  }
+}
+```
+
 
 
 ## Format timestamp
@@ -65,6 +117,24 @@ Usage:
 ```javascript
 const timestamp = Date.now()
 format_datetime(timestamp)
+```
+
+Expected output:
+```json
+{
+  "date": "2025-06-19",
+  "date_time": "2025-06-19T13:52:05",
+  "date_time_millis": "2025-06-19T13:52:05.420",
+  "date_time_micros": "2025-06-19T13:52:05.420000",
+  "year": 2025,
+  "month": "06",
+  "day": "19",
+  "hours": "13",
+  "minutes": "52",
+  "seconds": "05",
+  "milliseconds": ".420",
+  "microseconds": ".420000"
+}
 ```
 
 
@@ -79,13 +149,11 @@ const campaign_name = 'test'
 get_channel_grouping(source, campaign_name)
 ```
 
-
-
-## Get last_consent_values
-
-```javascript
-get_last_consent_values()
+Expected output:
+```json
+"paid_social"
 ```
+
 
 ---
 
