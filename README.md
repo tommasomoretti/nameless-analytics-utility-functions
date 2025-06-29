@@ -8,7 +8,7 @@
 # Utility functions
 The Nameless Analytics utility functions is a set of JavaScript functions used by [Nameless Analytics Client-Side tracker tag](https://github.com/tommasomoretti/nameless-analytics-client-side-tracker-tag/). 
 
-They can be used to get the client and session id, get user agent details, format fimestamp, get channel grouping or get last consent status.
+They can be used to get the client and session id, get user agent details, format timestamp, get channel grouping or get last consent status.
 
 For an overview of how Nameless Analytics works [start from here](https://github.com/tommasomoretti/nameless-analytics/).
 
