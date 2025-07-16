@@ -38,8 +38,8 @@ Expected output:
 {
   "event_name": "get_user_data",
   "client_id": "iURYgLE478F7TZU",
-   "session_id": "iURYgLE478F7TZU_yt726CejxG8pyDW",
-   "page_id": "X9zgxcyvbNwM0qt"
+  "session_id": "iURYgLE478F7TZU_yt726CejxG8pyDW",
+  "page_id": "X9zgxcyvbNwM0qt"
 }
 ```
 
