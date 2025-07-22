@@ -53,7 +53,7 @@ Usage:
 get_last_consent_values()
 ```
 
-Expected output:
+Expected output if consent mode is present:
 ```json
 {
   "consent_type": "update",
@@ -64,6 +64,20 @@ Expected output:
   "functionality_storage": false,
   "personalization_storage": false,
   "security_storage": false
+}
+```
+
+Expected output if consent mode is not present:
+```json
+{
+  "consent_type": "Consent mode not present",
+  "ad_user_data": null,
+  "ad_personalization": null,
+  "ad_storage": null,
+  "analytics_storage": null,
+  "functionality_storage": null,
+  "personalization_storage": null,
+  "security_storage": null
 }
 ```
 
